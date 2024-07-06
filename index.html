@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./main.css">
+    <title>Agenda / Contatos</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <h1>Agenda / Contatos</h1>
+        </header>
+        <main>
+            <section>
+                <form id="contato">
+                    <input id="nome" type="text" placeholder="Digite seu nome"
+                        pattern="^[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$"
+                        title="Este campo deve conter apenas letras e espaços." required>
+                    <input id="telefone" type="tel" maxlength="12" placeholder="Telefone (11) 11111-1111" required>
+                    <button id="btn-cadastrar" type="submit">Cadastrar</button>
+                </form>
+            </section>
+            <section>
+                <table cellspacing="0">
+                    <thead>
+                        <th>Nome</th>
+                        <th>Telefone</th>
+                    </thead>
+                    <tbody>
+                        <tr>
+
+                        </tr>
+                    </tbody>
+                </table>
+            </section>
+        </main>
+    </div>
+    <script src="./main.js"></script>
+</body>
+
+</html>
