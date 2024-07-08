@@ -54,7 +54,7 @@ form input {
 
 
 form button {
-    background-color: #009432;
+    background-color: #047529;
     text-transform: uppercase;
     border-radius: 1rem;
     color: #fff;
@@ -63,6 +63,14 @@ form button {
     cursor: pointer;
     border: none;
     padding: 1rem;
+}
+
+button:hover {
+    opacity: 0.8;
+}
+
+form button:active {
+    opacity: 0.5;
 }
 
 table {
